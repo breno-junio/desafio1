@@ -1,4 +1,4 @@
-indiceDeMassaCorporal(1.78,92);
+indiceDeMassaCorporal(1.60,92);
 
 function indiceDeMassaCorporal(altura,peso) {
     let imc = peso / (altura ** 2);
@@ -25,7 +25,7 @@ function calcularFatorial(numero) {
 }
 
 // Exemplo de uso
-let numero = 9;
+let numero = 5;
 let resultado = calcularFatorial(numero);
 console.log(`O fatorial de ${numero} é ${resultado}`);
 
